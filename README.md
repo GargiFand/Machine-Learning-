@@ -1,20 +1,29 @@
-# Machine Learning Projects
+# Spam Detector Project
 
-Below are some Machine Learning projects.
+## Description
+--> The ML Spam Detection is a Flask web application which predicts whether the message is a spam or not. SMS Spam Collection dataset from Kaggle was used to classify the messages into 2 classes- Ham(1) and Spam(0) using stemming, Bag of Words model and Naive Bayes Classifiers.
 
-## Table of Contents
+--> My objective was to reduce the FP(False Positive) value as much as possible for this case and in order to overcome this issue, Naive Bayes classifiers namely, MultinomiallNB and BernoulliNB were implemented to get best accuracy_score and precision_score from the dataset.
 
-- [Projects](#projects)
+## Requirements
+Python
+Flask
+Machine learning libraries
 
-## Projects
+## Installation
+Run all commands
 
-| Name | Description |
-| :---: | :--- |
-|[Handwritten Digit Recognizer](./handwritten-digit-recognizer/)|This is a Python code that trains a neural network model to classify handwritten digits.|
-|[Word Prediction](./word-prediction/)|This is a Python code that trains a neural network model to generate text. The code uses a technique called Long Short-Term Memory (LSTM).|
-|[Cats And Dogs](./cats_and_dogs/)|This is a Python code that trains a neural network model to classify images of cats and dogs.|
-|[Sentiment Analysis](./sentiment-analysis/)|This is a Python code that trains a neural network model to classify movie reviews as positive or negative.|
-|[Medical Cost Prediction](./medical_costs/)|This is a Python code that trains a neural network model to predict medical costs.|
-|[Disease Predictor](./Disease_Predictor/)|This is a Python code that trains a Naive-bayes, Random-forest, SVM model to predict Diseases.|
-|[Spam Detector Message App](./Spam_Detector_Message_App/)|This is a Python code that trains a Naive-bayes model to predict whether a message is spam or not and integrated using Flask.
-|[Stock Price Prediction](./stock_price_prediction/)|This is a Python code that trains a Linear Regression model to predict Stock market Prices.|
+* Assuming that model and .pkl files are in same folder
+* After that app.py file will be created with essential backend code.
+* Create new virtual python environment python3 -m venv venv
+* Activate virtual python environment source venv/bin/activate
+* Install all the libraries mentioned in Requirements using pip install library_name
+* Run FlaskApp file python app.py
+* Go to your browser and type http://127.0.0.1:5000/ in the address bar.
+* Hurray! That's it.
+
+## Result
+| ![Input](https://github.com/SidharthMudgil/mini-projects/blob/main/ml/Spam_Detector_Message_App/images/Screenshot%20(408).png) | ![Output](https://github.com/SidharthMudgil/mini-projects/blob/main/ml/Spam_Detector_Message_App/images/Screenshot%20(409).png) |
+| ----- | ------ |
+
+
